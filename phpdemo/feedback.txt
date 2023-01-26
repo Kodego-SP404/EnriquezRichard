@@ -1,0 +1,27 @@
+html --> .php
+
+inc --> header.php;footer.php
+
+database
+	table: feedback
+		id
+		name
+		email
+		body
+		date
+
+User: (access sa database name) --> grant priveleges
+	username: * 	host: localhost password: *
+php
+
+connection --> PDO mysqli
+
+adjust the 3 php files
+
+create additional php files if necessary
+
+tapusin na
+validations:
+3 ang text box, isa lang ang wala,..... NGANGA
+dapat  meron silang tatlo
+	name, email, feedback (date -timestamp>
