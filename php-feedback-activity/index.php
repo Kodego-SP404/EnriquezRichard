@@ -1,10 +1,10 @@
 <?php 
-// dbconnect
 session_start();
+
+// dbconnect
 include("./conn.php");
 
 // insert Data 
-
   if(isset($_POST['submit'])){  
     $name = $_POST['name'];
     $email = $_POST['email'];
@@ -25,7 +25,6 @@ include("./conn.php");
   $conn = null;
 
 ?>
-
 
 <?php include ("./include/header.php");?>
 
@@ -86,4 +85,4 @@ include("./conn.php");
     </main>
 
     <?php include ("./include/footer.php")?>
-   
+  
